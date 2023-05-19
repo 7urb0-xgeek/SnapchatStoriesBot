@@ -10,7 +10,7 @@ logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
 class ENV_VARS(object):
-    API_ID = int(os.environ.get("API_ID","21166181"))
+    API_ID = int(os.environ.get("API_ID", "21166181"))
     API_HASH = os.environ.get("API_HASH", "8c3a80939d1a3ca93acfee34ae66e267")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6119015832:AAG3KpguH0E1Fe6L7vnpFwDUBE94-_b9Q2E")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "Snapstoriesdown_bot")
